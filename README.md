@@ -8,7 +8,7 @@ Steve Callan
 
 Description:
 
-Access a users YouTube feed easily through ExpressionEngine without needing to use OAuth.
+Access a users YouTube feed easily through ExpressionEngine without needing to use OAuth.  Something else.
 
 -----------------------------------
 
