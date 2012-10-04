@@ -1,12 +1,9 @@
 <?php
 if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 
-ini_set('display_errors');
-error_reporting(E_ALL|E_STRICT);
-
 $plugin_info = array(
 	'pi_name' => 'YouTubEE',
-	'pi_version' =>'1.0',
+	'pi_version' =>'1.0.1',
 	'pi_author' =>'Steve Callan',
 	'pi_author_url' => 'http://www.stevecallan.com/',
 	'pi_description' => 'Displays loop of a users YouTube videos.',
