@@ -8,13 +8,13 @@ Steve Callan
 
 Description:
 
-Access a users YouTube feed easily through ExpressionEngine without needing to use OAuth.  Something else.
+Access a users YouTube feed easily through ExpressionEngine without needing to use OAuth.
 
 -----------------------------------
 
 Installation Instructions:
 
-- Upload the /youtubee folder to your expressionengine/third_party folder
+- Upload the /youtubee folder to your system/expressionengine/third_party folder
 
 -----------------------------------
 

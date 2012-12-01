@@ -11,12 +11,12 @@ $plugin_info = array(
 );
 
 /**
-* Form Class
+* Youtubee Class
 *
 * @package		ExpressionEngine
 * @category		Plugin
 * @author		Steve Callan
-* @copyright	Copyright (c) 2011, Watts Water Technologies
+* @copyright	Copyright (c) 2012, Callan Interactive
 */
 
 require_once("domparser.php");
