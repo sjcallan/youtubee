@@ -28,10 +28,6 @@ Installation Instructions:
     </article>
 
     {/exp:youtubee:entries}
-		
-Variable Support:
-
-title, short_description, image, views, time 
 
 **Parameters**
 
