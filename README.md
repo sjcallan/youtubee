@@ -20,14 +20,11 @@ Installation Instructions:
 
 **User Guide**
 
-{exp:youtubee:entries user="YOUR_YOUTUBE_USERNAME" limit="HOW_MANY_ENTRIES_TO_SHOW" key="YOU_TUBE_VIDEO_ID"}
+    {exp:youtubee:entries user="YOUR_YOUTUBE_USERNAME" limit="HOW_MANY_ENTRIES_TO_SHOW" key="YOU_TUBE_VIDEO_ID"}
 
     <article>
-
-    {title}
-
-    {short_description}
-
+    <h3>{title}</h3>
+    <p>{short_description}</p>
     </article>
 
     {/exp:youtubee:entries}
