@@ -18,7 +18,7 @@ Installation Instructions:
 
 -----------------------------------
 
-User Guide
+**User Guide**
 
 {exp:youtubee:entries user="YOUR_YOUTUBE_USERNAME" limit="HOW_MANY_ENTRIES_TO_SHOW" key="YOU_TUBE_VIDEO_ID"}
 
@@ -36,10 +36,26 @@ Variable Support:
 
 title, short_description, image, views, time 
 
-Parameters:
+**Parameters**
 
 user: the username of the feed you would like to pull (required)
 
 limit: Integer of how many items to show (not required)
 
 key: If you would like to filter the results by a certain video user this parameter.  To retreive multiple videos separate by | (not required)
+
+**Variables**
+
+{title} - The title of the video
+
+{short_description} - The short description of the video
+
+{image} - thumbnail of the video
+
+{views} - The number of views this video has
+
+{time} - The upload date of the video
+
+{url} - The YouTube Video Link of the video
+
+{key} - The unique identifier for this video

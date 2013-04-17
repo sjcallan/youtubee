@@ -211,8 +211,14 @@ class YouTubee {
 			</article>
 		{/exp:youtubee:entries}
 		
-		Supports:
-		title, short_description, image, views, time
+		Variables:
+		{title} - The title of the video
+		{short_description} - The short description of the video
+		{image} - thumbnail of the video
+		{views} - The number of views this video has
+		{time} - The upload date of the video
+		{url} - The YouTube Video Link of the video
+		{key} - The unique identifier for this video
 		
 		<?php
 		$buffer = ob_get_contents();
