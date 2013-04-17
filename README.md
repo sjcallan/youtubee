@@ -22,15 +22,15 @@ Installation Instructions:
 
 {exp:youtubee:entries user="YOUR_YOUTUBE_USERNAME" limit="HOW_MANY_ENTRIES_TO_SHOW" key="YOU_TUBE_VIDEO_ID"}
 
-<article>
+    <article>
 
-<h3>{title}</h3>
+    {title}
 
-{short_description}
+    {short_description}
 
-</article>
+    </article>
 
-{/exp:youtubee:entries}
+    {/exp:youtubee:entries}
 		
 Variable Support:
 
