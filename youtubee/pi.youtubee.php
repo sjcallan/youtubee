@@ -62,6 +62,7 @@ class YouTubee {
 					'time' => $video["time"],
 					"url" => $video["url"],
 					"views" => $video["views"],
+					"date" => $video["date"],
 					"key" => $video["key"]
 				);
 	  			
@@ -101,6 +102,7 @@ class YouTubee {
 			foreach($xml->channel->item AS $entry){
 		
 				$push_data = FALSE;
+				$pubdate = (string)$entry->pubDate[0];
 				$entry_data = $this->_parse_item($entry->description);
 	
 				if($count != 0)
@@ -149,6 +151,7 @@ class YouTubee {
 						"image"=>$entry_data["image"], 
 						"short_description"=>$entry_data["short_description"], 
 						"time"=>$entry_data["time"],
+						"date"=>$pubdate,
 						"url"=>$entry_data["url"],
 						"views"=>number_format($entry_data["views"]),
 						"key" => $entry_data["key"]
@@ -216,7 +219,7 @@ class YouTubee {
 		{short_description} - The short description of the video
 		{image} - thumbnail of the video
 		{views} - The number of views this video has
-		{time} - The upload date of the video
+		{time} - The total time of the video
 		{url} - The YouTube Video Link of the video
 		{key} - The unique identifier for this video
 		

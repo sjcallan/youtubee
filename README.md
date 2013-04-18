@@ -47,7 +47,7 @@ key: If you would like to filter the results by a certain video user this parame
 
 {views} - The number of views this video has
 
-{time} - The upload date of the video
+{time} - The total length of the video
 
 {url} - The YouTube Video Link of the video
 
