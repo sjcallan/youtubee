@@ -51,6 +51,7 @@ class YouTubee {
 		
 		/* Get the feed as an array */
 			$feed_array = $this->_get_data($feed_url,$limit,$key_limit);
+            $i = 1;
 		
 			foreach($feed_array AS $video)
 			{
@@ -63,7 +64,8 @@ class YouTubee {
 					"url" => $video["url"],
 					"views" => $video["views"],
 					"date" => $video["date"],
-					"key" => $video["key"]
+					"key" => $video["key"],
+					"count" => $i
 				);
 	  			
 	  			$item_content	= $this->EE->functions->prep_conditionals( $tag_content, $swap );
@@ -71,6 +73,8 @@ class YouTubee {
 				$record_contents = "";
 				$record_contents = $this->EE->functions->var_swap($item_content, $swap);
 				$output .= $record_contents;
+				
+				$i++;
 				
 			}
 		
