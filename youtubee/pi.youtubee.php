@@ -226,6 +226,7 @@ class YouTubee {
 		{time} - The total time of the video
 		{url} - The YouTube Video Link of the video
 		{key} - The unique identifier for this video
+		{count} - The current count in the loop
 		
 		<?php
 		$buffer = ob_get_contents();
